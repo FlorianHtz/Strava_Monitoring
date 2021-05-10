@@ -1,0 +1,3 @@
+http://www.strava.com/oauth/authorize?client_id=64739&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read_all
+
+Authorization code : bbaee52a02ca1515978c64f6a2b78ee89997c95b
