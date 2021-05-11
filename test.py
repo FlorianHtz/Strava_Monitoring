@@ -29,7 +29,7 @@ def refresh_token():
 
 def get_activities():
     BASE = "https://www.strava.com/api/v3/athlete/activities"
-    access_token = ''
+    access_token = refresh_token()
     header = { 'Authorization' : 'Bearer' + str(access_token)}
     param = {'access_token':refresh_token(), 'per_page': 10, 'page':1}
     response = requests.get(BASE, params=param)
